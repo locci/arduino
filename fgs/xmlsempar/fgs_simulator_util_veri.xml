@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.util.Assert</classname>
+        <methodname>isInInterval(double, double, double)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>44</def>
+        <use>44</use>
+    </exception>
+    <exception>
+        <classname>simulator.util.Assert</classname>
+        <methodname>isInInterval(int, int, int)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>38</def>
+        <use>38</use>
+    </exception>
+    <exception>
+        <classname>simulator.util.Assert</classname>
+        <methodname>nonNegative(int)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>26</def>
+        <use>26</use>
+    </exception>
+    <exception>
+        <classname>simulator.util.Assert</classname>
+        <methodname>nonNegativeNonZero(int)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>32</def>
+        <use>32</use>
+    </exception>
+    <exception>
+        <classname>simulator.util.Assert</classname>
+        <methodname>notNull(Object)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>14</def>
+        <use>14</use>
+    </exception>
+    <exception>
+        <classname>simulator.util.Assert</classname>
+        <methodname>notNull(Object, String)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>20</def>
+        <use>20</use>
+    </exception>
+</elements>

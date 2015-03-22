@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.io.esl.XMLESLLoader</classname>
+        <methodname>getAgentProfile(Integer)</methodname>
+        <name>ScenarioLoadingException</name>
+        <def>364</def>
+        <use>364</use>
+    </exception>
+    <exception>
+        <classname>simulator.io.esl.XMLESLLoader</classname>
+        <methodname>readAgentProfiles(Scenario)</methodname>
+        <name>ScenarioLoadingException</name>
+        <innerpairs>
+            <pair>
+                <def>138</def>
+                <use>136</use>
+            </pair>
+        </innerpairs>
+        <externalpairs>
+            <pair>
+                <def>138</def>
+                <externaluse>
+                    <classname> simulator.io.esl.XMLESLLoader</classname>
+                    <methodname>readEMMAS(Scenario, Element)</methodname>
+                    <name>e</name>
+                    <linenumber>111</linenumber>
+                </externaluse>
+            </pair>
+        </externalpairs>
+        <def>138</def>
+        <def>168</def>
+        <use>138</use>
+        <use>168</use>
+    </exception>
+    <exception>
+        <classname>simulator.io.esl.XMLESLLoader</classname>
+        <methodname>readAgentProfiles(Scenario)</methodname>
+        <name>e</name>
+        <def>136</def>
+        <use>136</use>
+    </exception>
+    <exception>
+        <classname>simulator.io.esl.XMLESLLoader</classname>
+        <methodname>readEMMAS(Scenario, Element)</methodname>
+        <name>ScenarioLoadingException</name>
+        <innerpairs>
+            <pair>
+                <def>112</def>
+                <use>111</use>
+            </pair>
+        </innerpairs>
+        <def>112</def>
+        <use>112</use>
+    </exception>
+    <exception>
+        <classname>simulator.io.esl.XMLESLLoader</classname>
+        <methodname>readEMMAS(Scenario, Element)</methodname>
+        <name>e</name>
+        <def>111</def>
+        <use>111</use>
+    </exception>
+    <exception>
+        <classname>simulator.io.esl.XMLESLLoader</classname>
+        <methodname>readOperation(Element)</methodname>
+        <name>ScenarioLoadingException</name>
+        <def>277</def>
+        <use>277</use>
+    </exception>
+</elements>

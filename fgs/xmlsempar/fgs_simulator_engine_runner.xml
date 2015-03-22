@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.engine.runner.SimulationRun</classname>
+        <methodname>append(SimulationState)</methodname>
+        <name>SimulationRunException</name>
+        <def>70</def>
+        <use>70</use>
+    </exception>
+    <exception>
+        <classname>simulator.engine.runner.SimulationRun</classname>
+        <methodname>getFossilizedTrace()</methodname>
+        <name>SimulationRunException</name>
+        <def>172</def>
+        <use>172</use>
+    </exception>
+    <exception>
+        <classname>simulator.engine.runner.SimulationRun</classname>
+        <methodname>getTrace()</methodname>
+        <name>SimulationRunException</name>
+        <def>181</def>
+        <use>181</use>
+    </exception>
+    <exception>
+        <classname>simulator.engine.runner.SimulationRun</classname>
+        <methodname>replace(SimulationState)</methodname>
+        <name>SimulationRunException</name>
+        <def>140</def>
+        <use>140</use>
+    </exception>
+    <exception>
+        <classname>simulator.engine.runner.SimulationRun</classname>
+        <methodname>restartFrom(SimulationState)</methodname>
+        <name>SimulationRunException</name>
+        <def>106</def>
+        <use>106</use>
+    </exception>
+    <exception>
+        <classname>simulator.engine.runner.SimulationRunner</classname>
+        <methodname>resetRun()</methodname>
+        <name>SimulationRunException</name>
+        <def>219</def>
+        <use>219</use>
+    </exception>
+</elements>

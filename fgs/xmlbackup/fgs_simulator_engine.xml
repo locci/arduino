@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.engine.SimulationEngine</classname>
+        <methodname>SimulationEngine(Scenario, Collection, ComponentsRegistry)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>52</def>
+        <def>73</def>
+        <use>52</use>
+        <use>73</use>
+    </exception>
+    <exception>
+        <classname>simulator.engine.SimulationState</classname>
+        <methodname>clone()</methodname>
+        <name>e</name>
+        <innerpairs>
+            <pair>
+                <def>136</def>
+                <use>139</use>
+            </pair>
+        </innerpairs>
+        <def>136</def>
+        <use>136</use>
+        <use>139</use>
+    </exception>
+    <exception>
+        <classname>simulator.engine.SimulationState</classname>
+        <methodname>toString()</methodname>
+        <name>e</name>
+        <def>269</def>
+        <use>269</use>
+    </exception>
+</elements>

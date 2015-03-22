@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.ArgumentsParser</classname>
+        <methodname>ArgumentsParser(String, Collection)</methodname>
+        <name>InvalidArgumentException</name>
+        <def>42</def>
+        <def>48</def>
+        <use>42</use>
+        <use>48</use>
+    </exception>
+    <exception>
+        <classname>simulator.ArgumentsParser</classname>
+        <methodname>enforceParameterAndValuePresence(String)</methodname>
+        <name>InvalidArgumentException</name>
+        <externalpairs>
+            <pair>
+                <def>119</def>
+                <externaluse>
+                    <classname> simulator.Main</classname>
+                    <methodname>main(String)</methodname>
+                    <name>e</name>
+                    <linenumber>166</linenumber>
+                </externaluse>
+            </pair>
+            <pair>
+                <def>119</def>
+                <externaluse>
+                    <classname> teste.Main2</classname>
+                    <methodname>main(String)</methodname>
+                    <name>e</name>
+                    <linenumber>184</linenumber>
+                </externaluse>
+            </pair>
+        </externalpairs>
+        <def>119</def>
+        <use>119</use>
+    </exception>
+    <exception>
+        <classname>simulator.ArgumentsParser</classname>
+        <methodname>enforceValuePresence(String)</methodname>
+        <name>InvalidArgumentException</name>
+        <externalpairs>
+            <pair>
+                <def>126</def>
+                <externaluse>
+                    <classname> simulator.Main</classname>
+                    <methodname>main(String)</methodname>
+                    <name>e</name>
+                    <linenumber>166</linenumber>
+                </externaluse>
+            </pair>
+            <pair>
+                <def>126</def>
+                <externaluse>
+                    <classname> teste.Main2</classname>
+                    <methodname>main(String)</methodname>
+                    <name>e</name>
+                    <linenumber>184</linenumber>
+                </externaluse>
+            </pair>
+        </externalpairs>
+        <def>126</def>
+        <use>126</use>
+    </exception>
+    <exception>
+        <classname>simulator.Main</classname>
+        <methodname>main(String)</methodname>
+        <name>e</name>
+        <innerpairs>
+            <pair>
+                <def>162</def>
+                <use>164</use>
+            </pair>
+            <pair>
+                <def>166</def>
+                <use>169</use>
+            </pair>
+        </innerpairs>
+        <def>162</def>
+        <def>166</def>
+        <use>162</use>
+        <use>164</use>
+        <use>166</use>
+        <use>169</use>
+    </exception>
+    <exception>
+        <classname>simulator.Scenario</classname>
+        <methodname>addAgentInitializer(int, Element)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>391</def>
+        <use>391</use>
+    </exception>
+    <exception>
+        <classname>simulator.Scenario</classname>
+        <methodname>addAgentParameter(int, String, List)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>437</def>
+        <use>437</use>
+    </exception>
+    <exception>
+        <classname>simulator.Scenario</classname>
+        <methodname>addAgentParameter(int, String, String)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>414</def>
+        <use>414</use>
+    </exception>
+    <exception>
+        <classname>simulator.Scenario</classname>
+        <methodname>addPropertyParameter(int, String, List)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>545</def>
+        <use>545</use>
+    </exception>
+    <exception>
+        <classname>simulator.Scenario</classname>
+        <methodname>addPropertyParameter(int, String, String)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>523</def>
+        <use>523</use>
+    </exception>
+    <exception>
+        <classname>simulator.Scenario</classname>
+        <methodname>addRelatioPair(int, int, int)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>483</def>
+        <use>483</use>
+    </exception>
+    <exception>
+        <classname>simulator.Scenario</classname>
+        <methodname>addRelation(int, String, String)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>463</def>
+        <use>463</use>
+    </exception>
+</elements>

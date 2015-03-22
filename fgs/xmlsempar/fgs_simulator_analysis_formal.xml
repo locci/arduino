@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.analysis.formal.BooleanPropertyPredicate</classname>
+        <methodname>isTrue()</methodname>
+        <name>e</name>
+        <def>40</def>
+        <use>40</use>
+    </exception>
+    <exception>
+        <classname>simulator.analysis.formal.GreaterThan</classname>
+        <methodname>isTrue()</methodname>
+        <name>e</name>
+        <def>76</def>
+        <use>76</use>
+    </exception>
+</elements>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.ui.SimulatorUI</classname>
+        <methodname>instance()</methodname>
+        <name>RuntimeException</name>
+        <externalpairs>
+            <pair>
+                <def>32</def>
+                <externaluse>
+                    <classname> simulator.io.XMLScenarioLoader</classname>
+                    <methodname>loadScenario(File)</methodname>
+                    <name>e</name>
+                    <linenumber>81</linenumber>
+                </externaluse>
+            </pair>
+            <pair>
+                <def>32</def>
+                <externaluse>
+                    <classname> simulator.io.XMLExperimentLoader</classname>
+                    <methodname>loadExperiment(File)</methodname>
+                    <name>e</name>
+                    <linenumber>144</linenumber>
+                </externaluse>
+            </pair>
+            <pair>
+                <def>32</def>
+                <externaluse>
+                    <classname> simulator.Main</classname>
+                    <methodname>main(String)</methodname>
+                    <name>e</name>
+                    <linenumber>167</linenumber>
+                </externaluse>
+            </pair>
+            <pair>
+                <def>32</def>
+                <externaluse>
+                    <classname> teste.Main2</classname>
+                    <methodname>main(String)</methodname>
+                    <name>e</name>
+                    <linenumber>184</linenumber>
+                </externaluse>
+            </pair>
+        </externalpairs>
+        <def>32</def>
+        <use>32</use>
+    </exception>
+</elements>

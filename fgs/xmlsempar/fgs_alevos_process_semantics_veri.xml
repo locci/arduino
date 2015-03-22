@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>alevos.process.semantics.PiComRule</classname>
+        <methodname>substitution(List, List)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>114</def>
+        <use>114</use>
+    </exception>
+    <exception>
+        <classname>alevos.process.semantics.PiComRule</classname>
+        <methodname>succ(Expression)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>43</def>
+        <use>43</use>
+    </exception>
+    <exception>
+        <classname>alevos.process.semantics.PiParRule</classname>
+        <methodname>succ(Expression)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>43</def>
+        <use>43</use>
+    </exception>
+    <exception>
+        <classname>alevos.process.semantics.PiPrefixRule</classname>
+        <methodname>succ(
+Expression)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>36</def>
+        <use>36</use>
+    </exception>
+    <exception>
+        <classname>alevos.process.semantics.PiReplicationRule</classname>
+        <methodname>succ(Expression)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>58</def>
+        <use>58</use>
+    </exception>
+    <exception>
+        <classname>alevos.process.semantics.PiResRule</classname>
+        <methodname>succ(Expression)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>39</def>
+        <use>39</use>
+    </exception>
+    <exception>
+        <classname>alevos.process.semantics.PiSumRule</classname>
+        <methodname>succ(
+Expression)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>40</def>
+        <use>40</use>
+    </exception>
+    <exception>
+        <classname>alevos.process.semantics.PiUnfoldingRule</classname>
+        <methodname>succ(Expression)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>50</def>
+        <use>50</use>
+    </exception>
+</elements>

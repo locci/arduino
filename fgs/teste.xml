@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.components.ComponentParameters</classname>
+        <methodname>addParameter(String, List)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>90</def>
+        <def>95</def>
+        <use>90</use>
+        <use>95</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentParameters</classname>
+        <methodname>addParameter(String, String)</methodname>
+        <name>IllegalArgumentException</name>
+        <externalpairs>
+            <pair>
+                <def>68</def>
+                <externaluse>
+                    <classname> teste.Main2</classname>
+                    <methodname>runFromFiles(File, File)</methodname>
+                    <name>e</name>
+                    <linenumber>281</linenumber>
+                </externaluse>
+            </pair>
+            <pair>
+                <def>73</def>
+                <externaluse>
+                    <classname> teste.Main2</classname>
+                    <methodname>runFromFiles(File, File)</methodname>
+                    <name>e</name>
+                    <linenumber>281</linenumber>
+                </externaluse>
+            </pair>
+        </externalpairs>
+        <def>68</def>
+        <def>73</def>
+        <use>68</use>
+        <use>73</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createAgentControl(
+ComponentParameters, IEnvironment)</methodname>
+        <name>ComponentInstantiationException</name>
+        <externalpairs>
+            <pair>
+                <def>111</def>
+                <externaluse>
+                    <classname> teste.Main2</classname>
+                    <methodname>runFromFiles(File, File)</methodname>
+                    <name>e</name>
+                    <linenumber>281</linenumber>
+                </externaluse>
+            </pair>
+        </externalpairs>
+        <def>111</def>
+        <use>111</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createAgentControl(ComponentParameters, IEnvironment)</methodname>
+        <name>//this.createAgentControl(cp2, environment2);
+            e</name>
+        <use>110</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createAgentControl(ComponentParameters, IEnvironment)</methodname>
+        <name>e</name>
+        <innerpairs>
+            <pair>
+                <def>109</def>
+                <use>110</use>
+            </pair>
+        </innerpairs>
+        <def>109</def>
+        <use>109</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createProperty(ComponentParameters, IEnvironment)</methodname>
+        <name>ComponentInstantiationException</name>
+        <externalpairs>
+            <pair>
+                <def>158</def>
+                <externaluse>
+                    <classname> teste.Main2</classname>
+                    <methodname>runFromFiles(File, File)</methodname>
+                    <name>e</name>
+                    <linenumber>281</linenumber>
+                </externaluse>
+            </pair>
+        </externalpairs>
+        <def>158</def>
+        <use>158</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createProperty(ComponentParameters, IEnvironment)</methodname>
+        <name>e</name>
+        <innerpairs>
+            <pair>
+                <def>156</def>
+                <use>157</use>
+            </pair>
+        </innerpairs>
+        <def>156</def>
+        <use>156</use>
+        <use>157</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>registerComponent(Class)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>176</def>
+        <def>181</def>
+        <use>176</use>
+        <use>181</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.StateInspectorHelper</classname>
+        <methodname>inspect(IAgent, String)</methodname>
+        <name>NoSuchStateInspectorException</name>
+        <def>67</def>
+        <def>70</def>
+        <use>67</use>
+        <use>70</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.StateInspectorHelper</classname>
+        <methodname>inspect(IAgent, String)</methodname>
+        <name>exception</name>
+        <innerpairs>
+            <pair>
+                <def>66</def>
+                <use>67</use>
+            </pair>
+            <pair>
+                <def>69</def>
+                <use>70</use>
+            </pair>
+        </innerpairs>
+        <def>66</def>
+        <def>69</def>
+        <use>66</use>
+        <use>67</use>
+        <use>69</use>
+    </exception>
+</elements>

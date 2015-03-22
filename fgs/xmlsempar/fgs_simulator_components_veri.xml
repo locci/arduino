@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<elements>
+    <exception>
+        <classname>simulator.components.ComponentParameters</classname>
+        <methodname>addParameter(String, List)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>92</def>
+        <def>97</def>
+        <use>92</use>
+        <use>97</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentParameters</classname>
+        <methodname>addParameter(String, String)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>69</def>
+        <def>74</def>
+        <use>69</use>
+        <use>74</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createAgentControl(ComponentParameters, IEnvironment)</methodname>
+        <name>ComponentInstantiationException</name>
+        <innerpairs>
+            <pair>
+                <def>90</def>
+                <use>88</use>
+            </pair>
+        </innerpairs>
+        <def>90</def>
+        <use>90</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createAgentControl(ComponentParameters, IEnvironment)</methodname>
+        <name>e</name>
+        <innerpairs>
+            <pair>
+                <def>88</def>
+                <use>89</use>
+            </pair>
+        </innerpairs>
+        <def>88</def>
+        <use>88</use>
+        <use>89</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createProperty(ComponentParameters, IEnvironment)</methodname>
+        <name>ComponentInstantiationException</name>
+        <innerpairs>
+            <pair>
+                <def>133</def>
+                <use>131</use>
+            </pair>
+        </innerpairs>
+        <def>133</def>
+        <use>133</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>createProperty(ComponentParameters, IEnvironment)</methodname>
+        <name>e</name>
+        <innerpairs>
+            <pair>
+                <def>131</def>
+                <use>132</use>
+            </pair>
+        </innerpairs>
+        <def>131</def>
+        <use>131</use>
+        <use>132</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.ComponentsRegistry</classname>
+        <methodname>registerComponent(Class)</methodname>
+        <name>IllegalArgumentException</name>
+        <def>150</def>
+        <def>155</def>
+        <use>150</use>
+        <use>155</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.StateInspectorHelper</classname>
+        <methodname>inspect(IAgent, String)</methodname>
+        <name>NoSuchStateInspectorException</name>
+        <def>66</def>
+        <def>69</def>
+        <use>66</use>
+        <use>69</use>
+    </exception>
+    <exception>
+        <classname>simulator.components.StateInspectorHelper</classname>
+        <methodname>inspect(IAgent, String)</methodname>
+        <name>exception</name>
+        <innerpairs>
+            <pair>
+                <def>65</def>
+                <use>66</use>
+            </pair>
+            <pair>
+                <def>68</def>
+                <use>69</use>
+            </pair>
+        </innerpairs>
+        <def>65</def>
+        <def>68</def>
+        <use>65</use>
+        <use>66</use>
+        <use>68</use>
+    </exception>
+</elements>
